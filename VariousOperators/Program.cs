@@ -6,7 +6,10 @@ namespace VariousOperators
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            Console.Write("Insere número inteiro não negativo: ");
+
+            string number = Console.ReadLine();
+
         }
     }
 }
