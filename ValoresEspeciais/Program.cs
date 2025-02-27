@@ -78,6 +78,16 @@ namespace ValoresEspeciais
             Console.WriteLine((uint)(i + 1));
             
 
+
+
+            // Floats Overflows
+            float w = float.MaxValue + 1;
+            Console.WriteLine(w);
+
+            float h = 2 * float.MaxValue;
+            Console.WriteLine(h);
+
+
         }
     }
 }
