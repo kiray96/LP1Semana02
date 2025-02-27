@@ -7,41 +7,56 @@ namespace ValoresEspeciais
         private static void Main(string[] args)
         {
             // Create variables with the Min and Max value of all types 
-            sbyte sbmax = sbyte.MaxValue;
-            sbyte sbmin = sbyte.MinValue;
+            sbyte sbMax = sbyte.MaxValue;
+            sbyte sbMin = sbyte.MinValue;
 
-            double dbmax = double.MaxValue;
-            double dbmin = double.MinValue;
+            double dbMax = double.MaxValue;
+            double dbMin = double.MinValue;
 
-            ulong ulmax = ulong.MaxValue;
-            ulong ulmin = ulong.MinValue;
+            ulong ulMax = ulong.MaxValue;
+            ulong ulMin = ulong.MinValue;
 
-            long lmax = long.MaxValue;
-            long lmin = long.MinValue;
+            long lMax = long.MaxValue;
+            long lMin = long.MinValue;
 
-            float fmax = float.MaxValue;
-            float fmin = float.MinValue;
+            float fMax = float.MaxValue;
+            float fMin = float.MinValue;
 
-            int imax = int.MaxValue;
-            int imin = int.MinValue;
+            int iMax = int.MaxValue;
+            int iMin = int.MinValue;
 
-            short smax = short.MaxValue;
-            short smin = short.MinValue;
+            short sMax = short.MaxValue;
+            short sMin = short.MinValue;
 
-            decimal decmax = decimal.MaxValue;
-            decimal decmin = decimal.MinValue;
+            decimal decMax = decimal.MaxValue;
+            decimal decMin = decimal.MinValue;
 
-            byte bmax = byte.MaxValue;
-            byte bmin = byte.MinValue;
+            byte bMax = byte.MaxValue;
+            byte bMin = byte.MinValue;
 
-            ushort usmax = ushort.MaxValue;
-            ushort usmin = ushort.MinValue;
+            ushort usMax = ushort.MaxValue;
+            ushort usMin = ushort.MinValue;
 
-            uint uimax = uint.MaxValue;
-            uint uimin = uint.MaxValue;
+            uint uiMax = uint.MaxValue;
+            uint uiMin = uint.MaxValue;
 
-            char chmax = char.MaxValue;
-            char chmin = char.MinValue;
+            char chMax = char.MaxValue;
+            char chMin = char.MinValue;
+
+            // Print variables with the Min and Max value of all types
+            Console.WriteLine($"{sbMax} {sbMin}");
+            Console.WriteLine($"{dbMax} {dbMin}");
+            Console.WriteLine($"{ulMax} {ulMin}");
+            Console.WriteLine($"{lMax} {lMin}");
+            Console.WriteLine($"{fMax} {fMin}");
+            Console.WriteLine($"{iMax} {iMin}");
+            Console.WriteLine($"{sMax} {sMin}");
+            Console.WriteLine($"{decMax} {decMin}");
+            Console.WriteLine($"{bMax} {bMin}");
+            Console.WriteLine($"{usMax} {usMin}");
+            Console.WriteLine($"{uiMax} {uiMin}");
+            Console.WriteLine($"{chMax} {chMin}");
+
         }
     }
 }
