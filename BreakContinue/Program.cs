@@ -18,6 +18,12 @@ namespace BreakContinue
                 {
                     break;
                 }
+                
+                // Skips number 10
+                if (turn == 10)
+                {
+                    continue;
+                }
 
                 // Skips current cycle if current turn is divisible by 3
                 if (turn % 3 == 0)
