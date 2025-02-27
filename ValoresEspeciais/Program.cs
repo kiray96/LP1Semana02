@@ -88,6 +88,14 @@ namespace ValoresEspeciais
             Console.WriteLine(h);
 
 
+            // Floats Underflow
+            float f1 , f2 ;
+            f1 = f2 = 10000.0f;
+            //This will return true but in reality the numbers are different
+            Console.WriteLine(f1 == f2 + 0.0001f); 
+
+
+
         }
     }
 }
