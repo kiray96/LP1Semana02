@@ -39,6 +39,9 @@ namespace ChatGPTOne
                         break;
                 }
 
+                // Response
+                Console.WriteLine(response);
+
             }
         }
     }
