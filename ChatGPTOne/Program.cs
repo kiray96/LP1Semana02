@@ -9,7 +9,10 @@ namespace ChatGPTOne
             // Auxiliary variables
             string question, response;
 
-            while (true)
+            // Bool so i can make the while loop end
+            bool running = true;
+
+            while (running)
             {
                 // Ask the user a question
                 Console.Write("Place your question: ");
@@ -34,9 +37,14 @@ namespace ChatGPTOne
                     case "Are you alive?":
                         response = "I don't know, am I?";
                         break;
-                    default:
-                        response = "I don't know that information sorry";
+                    // Used the bool to end the loop
+                    case "EXIT":
+                        response = "";
+                        running = false;
                         break;
+                    default:
+                        response = "I don't know that information sorry :(";
+                        break;       
                 }
 
                 // Response
