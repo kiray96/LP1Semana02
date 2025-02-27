@@ -42,8 +42,8 @@ namespace Cilindro
             string volume = $"{v:f3}";
             string superficie = $"{s:f3}";
 
-            Console.Write(volume);
-            Console.Write(superficie);
+            Console.WriteLine(volume);
+            Console.WriteLine(superficie);
             
 
         }
