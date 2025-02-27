@@ -57,6 +57,23 @@ namespace ValoresEspeciais
             Console.WriteLine($"{uiMax} {uiMin}");
             Console.WriteLine($"{chMax} {chMin}");
 
+
+
+            // Print double Positive Infinity
+            double x = double. PositiveInfinity;
+            Console.WriteLine(x);
+            // Print double NAN
+            x = double. PositiveInfinity / double. PositiveInfinity ; 
+            Console.WriteLine(x);
+
+            // Print double Negative Infinity
+            float f = float. NegativeInfinity;
+            Console.WriteLine(f);
+            // Print float NAN
+            f = float .NaN;
+            Console.WriteLine(f);
+            
+
         }
     }
 }
