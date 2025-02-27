@@ -18,6 +18,12 @@ namespace Cilindro
             // Read the input
             string raio = Console.ReadLine();
 
+            // Convert the height input in to a double
+            double a = double.Parse(altura);
+
+            // Convert the radius input in to a double
+            double r = double.Parse(raio);
+
         }
     }
 }
