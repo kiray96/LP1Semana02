@@ -72,6 +72,10 @@ namespace ValoresEspeciais
             // Print float NAN
             f = float .NaN;
             Console.WriteLine(f);
+
+            // Uint Overflow
+            ulong i = uint.MaxValue; 
+            Console.WriteLine((uint)(i + 1));
             
 
         }
