@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.Data.Common;
 using System.Runtime.CompilerServices;
 
@@ -8,8 +9,7 @@ namespace PerfectCountdown
     {
         private static void Main(string[] args)
         {
-            string start, step;
-            string response = ("");
+            string start, step, response;
 
             Console.Write("Start number: ");
                 start = Console.ReadLine(); 
@@ -25,6 +25,7 @@ namespace PerfectCountdown
             while (true)
             {
                 s--;
+                response = ("");
 
                 if (s > 1)
                 {
